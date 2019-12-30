@@ -1,0 +1,126 @@
+body {
+    box-sizing: border-box;
+    background-color: #fff;
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.5rem;
+    color:000;   
+    line-height: 1.6;
+}
+
+.page-header {
+    padding:1.8em ;
+    margin-top: 0em;
+    
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.959);
+  }
+  
+  .sticky + .container {
+    padding-top: 102px;
+  }
+
+.me {
+    display:inline-block;
+    text-align:left;
+    margin-bottom:0;
+    font-weight: bolder;
+
+}
+
+ul {
+    display:flex;
+    align-items:stretch;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top:0;
+    padding:0;
+}
+
+li {
+    font-weight:bold;
+    list-style: none;
+    cursor: pointer;
+    padding-right: 14px;
+    padding-bottom: 1px;
+    padding-left: 14px;
+    border: 1px solid #fff;
+}
+
+li:hover  {background-color: #e4e4e4}
+
+
+#self {
+    border-radius: 50%;
+    float:left;
+    margin-right:17px;
+}
+
+.greetings {
+    color:#2F2F2F;
+}
+
+h2 {
+    text-align: left;
+} 
+
+.ab, .pro {
+
+    margin-left: 120px;
+    margin-right: 120px;
+}
+ul {
+    margin-bottom: 5px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 1400px;
+    height: 600px;
+    padding: 10px;
+    border: 3px solid #434368;
+    margin-top:20px;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-weight: bold;
+    box-shadow: cornflowerblue;
+ 
+}
+
+
+.fa {
+    padding: 10px;
+    font-size: 35px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    background: rgba(14, 13, 13, 0.913);
+    color:rgb(255, 255, 255);
+  }
+  
+
+.fa:hover {
+    opacity: 0.7;
+
+  }
+    
+footer {
+    display: flex;
+    height: 75px;
+    justify-content: center;
+    margin-top:100px;
+  }
+  
+  /*footer {width: 100%; background-color:#19706f; text-align: center; margin-top: 100px;}
+  .contact-info {width: 970px; height: 70px; color: white; margin: 0 auto;}
+  footer div ul li {display: inline-block; margin-left: 50px; font-size: 20px; margin-top: 20px; margin-right:50px;}
+  .info{padding: 0px;}
