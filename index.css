@@ -1,42 +1,40 @@
 body {
     box-sizing: border-box;
+    padding: 22px 38px;
+    justify-content: center;
     background-color: #fff;
     font-family: 'Josefin Slab', serif;
     font-size: 1.5rem;
     color:000;   
+    height:100%;
     line-height: 1.6;
 }
 
 .page-header {
     padding:1.6em ;
-    margin-top: 0em;
+    margin-top: 0.2em;
+    /* margin-left:120px;
+    margin-right: 120px;
+    */
     
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.959);
-  }
-  
-  .sticky + .container {
-    padding-top: 102px;
-  }
-
 .me {
     display:inline-block;
-    text-align:left;
     margin-bottom:0;
     font-weight: bolder;
+    cursor: pointer;
+}
 
+.me :hover {
+    opacity: 0.7;
+    background-color: #cecacaf0;
 }
 
 ul {
     display:flex;
     align-items:stretch;
     justify-content: space-evenly;
-    width: 100%;
     margin-top:0;
     padding:0;
 }
@@ -45,13 +43,15 @@ li {
     font-weight:bold;
     list-style: none;
     cursor: pointer;
-    padding-right: 14px;
+    padding-right: 14px; 
     padding-bottom: 1px;
-    padding-left: 14px;
-    border: 1px solid #fff;
+    padding-left: 14px; 
+    /* border: 1px solid #fff; */
 }
 
-li:hover  {background-color: #e4e4e4}
+li:hover  {
+    background-color: #e4e4e4;
+}
 
 
 #self {
@@ -64,9 +64,6 @@ li:hover  {background-color: #e4e4e4}
     color:#2F2F2F;
 }
 
-h2 {
-    text-align: left;
-} 
 
 .demo1 {
 
@@ -81,6 +78,7 @@ h2 {
 ul {
     margin-bottom: 5px;
 }
+
 .techicons {
     display:flex;
     padding: 20px;
@@ -91,17 +89,33 @@ ul {
     justify-content: center;
     align-items: center;
     align-content: center;
-    width: 1400px;
-    height: 600px;
+    height:600px;
     padding: 10px;
-    margin-top:20px;
+    margin-top:10px;
     margin-left: 120px;
     margin-right: 120px;
     font-weight: bold;
-   
- 
 }
 
+.connect {
+    display: flex;
+    height:200px;
+}
+
+.portBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+    margin-top:10px;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-weight: bold;
+
+    
+
+}
 
 .fa {
     padding: 10px;
@@ -109,25 +123,60 @@ ul {
     width: 35px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
+    margin: 40px 2px;
     border-radius: 50%;
     border: 5px solid rgba(0, 0, 0, 0.81);
     background:#fff;
     color:rgba(0, 0, 0, 0.906);
   }
   
-
+/* 
 .fa:hover {
     opacity: 0.7;
 
-  }
+  } */
     
 footer {
     display: flex;
-    height: 75px;
-    padding: 20px;
     justify-content: center;
-    margin-top:10px;
+    margin-top:40px;
+    height: 100px;
+    padding: 40px;
   }
   
- 
+  @media screen and (max-width: 600px) {
+    body {
+        justify-content: center;
+        width: 100%;
+        height:auto;
+        font-size: 1em;
+    }
+    .me {
+        font-size: 1.em;
+    }
+
+    .ab, .pro {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .box, .portBox {
+        height:auto;
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    } 
+
+
+
+
+
+    
+}
+
+  
