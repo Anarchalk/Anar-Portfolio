@@ -8,7 +8,7 @@ body {
 }
 
 .page-header {
-    padding:1.8em ;
+    padding:1.6em ;
     margin-top: 0em;
     
 }
@@ -68,6 +68,11 @@ h2 {
     text-align: left;
 } 
 
+.demo1 {
+
+    margin-right: 20px;
+}
+
 .ab, .pro {
 
     margin-left: 120px;
@@ -76,7 +81,11 @@ h2 {
 ul {
     margin-bottom: 5px;
 }
-
+.techicons {
+    display:flex;
+    padding: 20px;
+    justify-content: flex-start;
+}
 .box {
     display: flex;
     justify-content: center;
@@ -85,26 +94,26 @@ ul {
     width: 1400px;
     height: 600px;
     padding: 10px;
-    border: 3px solid #434368;
     margin-top:20px;
     margin-left: 120px;
     margin-right: 120px;
     font-weight: bold;
-    box-shadow: cornflowerblue;
+   
  
 }
 
 
 .fa {
     padding: 10px;
-    font-size: 35px;
+    font-size: 30px;
     width: 35px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
     border-radius: 50%;
-    background: rgba(14, 13, 13, 0.913);
-    color:rgb(255, 255, 255);
+    border: 5px solid rgba(0, 0, 0, 0.81);
+    background:#fff;
+    color:rgba(0, 0, 0, 0.906);
   }
   
 
@@ -116,11 +125,9 @@ ul {
 footer {
     display: flex;
     height: 75px;
+    padding: 20px;
     justify-content: center;
-    margin-top:100px;
+    margin-top:10px;
   }
   
-  /*footer {width: 100%; background-color:#19706f; text-align: center; margin-top: 100px;}
-  .contact-info {width: 970px; height: 70px; color: white; margin: 0 auto;}
-  footer div ul li {display: inline-block; margin-left: 50px; font-size: 20px; margin-top: 20px; margin-right:50px;}
-  .info{padding: 0px;}
+ 
