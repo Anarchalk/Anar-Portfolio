@@ -1,0 +1,202 @@
+body {
+    box-sizing: border-box;
+    padding: 22px 38px;
+    justify-content: center;
+    background-color: #fff;
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.5rem;
+    color:000;   
+    height:100%;
+    line-height: 1.6;
+}
+
+.page-header {
+    padding:1.5em ;
+    margin-top: 0.2em;
+    /* margin-left:120px;
+    margin-right: 120px;
+    */
+    
+}
+
+.me {
+    display:inline-block;
+    margin-bottom:0;
+    font-weight: bolder;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.me :hover {
+    opacity: 0.7;
+    background-color: #cecacaf0;
+}
+
+ul {
+    display:flex;
+    align-items:stretch;
+    justify-content: space-evenly;
+    margin-top:0;
+    padding:0;
+}
+
+li {
+    font-weight:bold;
+    list-style: none;
+    cursor: pointer;
+    padding-right: 14px; 
+    padding-bottom: 1px;
+    padding-left: 14px; 
+    /* border: 1px solid #fff; */
+}
+
+li:hover  {
+    background-color: #e4e4e4;
+}
+
+
+#self {
+    border-radius: 50%;
+    float:left;
+    margin-right:30px;
+}
+
+.greetings {
+    color:#2F2F2F;
+}
+
+
+.demo1 {
+
+    margin-right: 20px;
+}
+
+.ab, .pro {
+
+    margin-left: 120px;
+    margin-right: 120px;
+}
+ul {
+    margin-bottom: 5px;
+}
+
+.techicons {
+    display:flex;
+    padding: 20px;
+    justify-content: flex-start;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height:600px;
+    padding: 10px;
+    margin-top:10px;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-weight: bold;
+}
+
+.connect {
+    display: flex;
+    height:200px;
+}
+
+.portBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+    margin-top:10px;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-weight: bold;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 2px;
+    border-radius: 50%;
+    border: 5px solid rgba(0, 0, 0, 0.81);
+    background:#fff;
+    color:rgba(0, 0, 0, 0.906);
+  }
+  
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top:40px;
+    margin-bottom:10px;
+    height: 100px;
+    padding: 60px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    body {
+        justify-content: center;
+        width: 100%;
+        height:auto;
+        font-size: 1em;
+    }
+    .me {
+        font-size: 1.4em;
+    }
+
+    .ab, .pro {
+        margin-left: 0;
+        margin-right: 0;
+    } 
+    
+    .greetings {
+        font-size: 1.3rem;
+    }
+
+    .box, .portBox {
+        height:auto;
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+
+    #creaTe {
+        height:30px;
+        width:80px;
+    }
+
+    #self {
+        height:150px;
+        width:120px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    } 
+
+    .fa {
+        padding: 8px;
+        font-size: 24px;
+        width: 25px;
+        text-align: center;
+        text-decoration: none;
+        margin-bottom:10px;
+        border-radius: 50%;
+        border: 3px solid rgba(0, 0, 0, 0.81);
+        background:#fff;
+        color:rgba(0, 0, 0, 0.906);
+      }
+
+
+
+
+
+    
+}
+
+  
