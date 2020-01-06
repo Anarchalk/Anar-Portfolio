@@ -1,677 +1,114 @@
+/* For mobile phones: */
 html, body {
     height: 100%;
   }
-
-body {
+  body {
     display: flex;
     flex-direction: column;
-    box-sizing: border-box;
-    padding: 22px 38px;
-    margin:0;
-    justify-content: center;
-    background-color: #fff;
     font-family: 'Josefin Slab', serif;
-    font-size: 1.5rem;
-    color:#000;   
     line-height: 1.6;
-}
-.cwrap {
+  }
+  main {
     flex: 1 0 auto;
   }
+  footer {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
 
-.page-header {
-    padding:1.5em ;
-    margin-top: 0.2em;    
-}
+  img {
+      width:100%;
+      height: auto;
+  }
 
-.me {
-    display:inline-block;
-    margin-bottom:0;
-    font-weight: bolder;
-    cursor: pointer;
-    font-size: 1.6em;
-    font-weight: bolder;
-}
-
-.me :hover {
-    opacity: 0.7;
-    background-color: #cecacaf0;
-}
-
-.menu {
-    font-size:1.1em ;
-
-}
-
-ul {
-    display:flex;
-    align-items:stretch;
+  ul {
+    display: flex;
+    align-items: stretch;
     justify-content: space-evenly;
-    margin-top:0;
-    margin-bottom: 5px;
-    padding:0;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 0;
 }
-
 
 li {
-    font-weight:bold;
+    font-weight: bold;
     list-style: none;
     padding-left: 0;
     padding-right: 20px;
-    padding-left:20px;
+    padding-left: 20px;
     cursor: pointer;
 }
-
-li:hover  {
-    background-color: #e4e2e2;
-}
-
-#self {
-    border-radius: 50%;
-    float:left;
-    margin-right:30px;
-}
-
-.greetings {
-    color:#2F2F2F;
-}
-
-.techicons {
-    justify-content: flex-start;
-  }
-
-.demo1 {
-
-    margin-right: 20px;
-}
-
-/* .pro {
-    margin-left: 120px;
-    margin-right: 120px;
-} */
-
-.tech {
-    height: 40px;
-    width: 40px;
+.heroHeadline {
+    display: flex;
+    margin-top: 10px;
+    margin: 5px;
+    padding: 10px;
+    font-size: 1em;
 }
 
 .box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    height:600px;
-    padding: 10px 148px;
-    margin-top:6px;
-    margin-left: 120px;
-    margin-right: 120px;
-    font-weight: bold;
-    /* border: 2px solid #000; */
-}
-.pro {
-    display: block;
-    justify-content: center;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0;
 }
 
-.connect {
-    display: flex;
-    justify-content: space-evenly;
-    height:200px;
-}
-
-/* .portBox {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    padding: 10px;
-    margin-top:10px;
-    margin-left: 120px;
-    margin-right: 120px;
-    font-weight: bold;
-
-} */
-.demo1, .code1 {
-    font-size: 1.5rem;
+#self {
+    height:100px;
+    width:80px;
+    border-radius: 50%;
+    margin-top:40px;
+    margin-right:10px;
 }
 .fa {
-    padding: 10px;
-    font-size: 30px;
-    width: 35px;
+    padding: 6px;
+    font-size: 16px;
+    width: 20px;
     text-align: center;
     text-decoration: none;
-    margin: 20px 2px;
+    margin-bottom: 5px;
     border-radius: 50%;
-    border: 5px solid rgba(0, 0, 0, 0.81);
-    background:#fff;
-    color:rgba(0, 0, 0, 0.906);
-  }
-  
-.copyText {
-    display: flex;
-    flex-shrink: 0;
-    justify-content: center;
-    margin-top:10px;
-    margin-bottom:10px;
-    height: 100px;
-    padding: 60px;
-  }
-
-  div, small {
+    border: 3px solid rgba(0, 0, 0, 0.81);
+    background: #fff;
+    color: rgba(0, 0, 0, 0.906);
+}
+img#creaTe {
+    height: 25px;
+    width: 58px;
+    margin-bottom: 10px;
+}
+div, small {
     display: flex;
     justify-content: center;
-    padding:0;
+    padding: 0;
     width: auto;
 }
-  /* .copyText {
-    flex-shrink: 0;
-  } */
+.buttons {
+    font-size: 1.3em;
+}
+  .text-center{
+      text-align: center;
+  }
+  header.page-header.sticky {
+    flex: 1 100;
+    background-color: #093;
+}
 
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+
+
+    }
+
+    
  
 
 
 
-/* @media screen and (max-width: 245px) and (min-width: 320px) {
-    body {
-        justify-content: center;
-        width: 100%;
-        height:auto;
-    }
+    @media only screen and (min-width: 768px) {
+    /* For desktop: */
 
-    .me {
-        display: flex;
-        font-size: 1.4em;  
-        justify-content: flex-start;
-        margin-top:0;
-        margin-bottom:5px;
 
-    }
-    .page-header {
-        padding: 1.2rem;
-    }
-
-    nav {
-        margin-top:1rem;
-    }
-    .ab {
-        font-size: 1em ;
-        margin-top:0;
-        margin-left: 0;
-        margin-right: 0;
-    } 
-    h2 {
-        margin:0;
-        font-size: 1.3em;
-       
-    }
-
-    .heroHeadline { 
-        margin:5px;
-        padding:10px
-    }
-    .greetings {
-        font-size: 1.2em;
-        margin-bottom: 10px;
-    }
-
-    h3 {
-        font-size: 1.1em;
-    }
-    
-   .box {
-        height:auto;
-        margin-left: 0;
-        margin-right: 0;
-        padding:0;
-    }
-
-    .pro {
-        padding:22px 38px;
-
-    }
-
-    .demo1, .code1 {
-        font-size: 1.1rem;
-    }
-    div > #creaTe {
-        height:15px;
-        width:36px;
-    }
-
-    #self {
-        height:90px;
-        width:70px;
-    }
-
-    img {
-        width: 100%;
-        height: auto;
-    } 
-
-    .fa {
-        padding: 6px;
-        font-size: 16px;
-        width: 20px;
-        text-align: center;
-        text-decoration: none;
-        margin-bottom:5px;
-        border-radius: 50%;
-        border: 3px solid rgba(0, 0, 0, 0.81);
-        background:#fff;
-        color:rgba(0, 0, 0, 0.906);
-      }
-
-    footer {
-        padding:10px;
-    }
-    small {
-      font-size: 0.5em;
-    }
-
-    }  */
-
-
-
-
-@media screen and (max-width: 575px) and (min-width: 320px) {
-    body {
-        justify-content: center;
-        width: 100%;
-        height:auto;
-    }
-
-    .me {
-        display: flex;
-        font-size: 1.4em;  
-        justify-content: flex-start;
-        margin-top:0;
-        margin-bottom:5px;
-
-    }
-    .page-header {
-        padding: 1.2rem;
-    }
-
-    nav {
-        margin-top:1rem;
-    }
-    .ab {
-        font-size: 1em ;
-        margin-top:0;
-        margin-left: 0;
-        margin-right: 0;
-    } 
-    h2 {
-        margin:0;
-        font-size: 1.3em;
-       
-    }
-
-    .heroHeadline { 
-        margin:5px;
-        padding:10px
-    }
-    .greetings {
-        font-size: 1em;
-        margin-bottom: 10px;
-    }
-
-    h3 {
-        font-size: 1.1em;
-    }
-    
-   .box {
-        height:auto;
-        margin-left: 0;
-        margin-right: 0;
-        padding:0;
-    }
-
-    /* .pro {
-        padding:22px 38px;
-
-    } */
-
-    .demo1, .code1 {
-        font-size: 1.1rem;
-    }
-    div > #creaTe {
-        height:15px;
-        width:36px;
-    }
-
-    #self {
-        height:90px;
-        width:70px;
-    }
-
-    img {
-        width: 100%;
-        height: auto;
-    } 
-
-    .fa {
-        padding: 6px;
-        font-size: 16px;
-        width: 20px;
-        text-align: center;
-        text-decoration: none;
-        margin-bottom:5px;
-        border-radius: 50%;
-        border: 3px solid rgba(0, 0, 0, 0.81);
-        background:#fff;
-        color:rgba(0, 0, 0, 0.906);
-      }
-
-    footer {
-        padding:10px;
-    }
-    small {
-      font-size: 0.5em;
-    }
-
-    } 
-
-
-@media screen and (max-width: 768px) and (min-width:576px) {
-    body {
-        justify-content: center;
-        width: 100%;
-        height:auto;
-        padding: 24px 60px;
-    }
-
-    .me {
-        display: flex;
-        font-size: 1.5em;  
-        justify-content: flex-start;
-        margin-top:0;
-        margin-bottom:5px;
-
-    }
-    .page-header {
-       margin-top: 1em;
-    }
-
-    nav {
-        margin-top:1.2em;
-    }
-    .ab {
-        margin-left: 30px;
-        margin-right:30px;
-    } 
-    p {
-        font-size: 1.2em;
-    }
-    .pro {
-        margin-left:20px;
-        margin-right:20px;
-    }
-
-    h2 {
-        margin:0;
-        font-size: 1.4em;
-    }
-
-    .heroHeadline { 
-        height: 500px;
-        margin:5px;
-        padding:10px
-    }
-    .greetings {
-        font-size: 1.3em;
-        margin-bottom: 10px;
-    }
-
-    h3 {
-        font-size: 1.2em;
-    }
-
-    .box {
-        padding:0;
-    }
-    
-   .box, .portBox {
-        height:auto;
-        width:100%;
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    .demo1, .code1 {
-        font-size: 1em;
-    }
-    
-    #creaTe {
-        height:25px;
-        width:58px;
-    }
-
-    #self {
-        height:170px;
-        width:135px;
-        margin-top:55px;
-        margin-left:38px;
-    }
-
-    img {
-        width: 100%;
-        height: auto;
-    } 
-
-    .techicons {
-       justify-content: flex-start;
-    }
-
-    .connect {
-        height:300px;
-    }
-    .fa {
-        padding: 10px;
-        font-size: 20px;
-        width: 25px;
-        margin-bottom:9px;
-        border-radius: 50%;
-    }
-
-    footer {
-        padding:12px;
-    }
-    small {
-      font-size: 0.8em;
-    }
-
-    }
-       @media screen and (max-width: 991px)and (min-width: 769px){
-        body {
-            justify-content: center;
-            width: 100%;
-            height:auto;
-        }
-
-        .container {
-            margin-left: 120px;
-            margin-right: 120px;
-        }
-        
-        .me {
-            margin-top:0;
-            margin-bottom:10px;
-        }
-
-        .menu {
-            font-size: 1.3em;
-        }
-
-        #self {
-            margin-top:50px;
-        }
-
-        .heroHeadline { 
-            height: 550px;
-            margin:5px;
-            padding:10px
-        }
-        .box {
-            padding: 0;
-        }
-
-        .ab {
-           height: auto;
-           width: 100%;
-           margin: auto;
-        }
-        
-        .box, .portBox {
-            height:auto;
-            width:100%;
-            margin-left: 0;
-            margin-right: 0;
-        }
-
-        h3 {
-            font-size: 1.3em;
-        }
-        p {
-         font-size: 1.2em;
-         
-        }
-
-         .techicons {
-           justify-content: flex-start;
-         }
-
-        .demo1, .code1 {
-          font-size: 1.2em;
-       }
-
-        .connect {
-            display: flex;
-            justify-content: space-evenly;
-            height: 400px;
-    }
-
-    .fa {
-        padding: 8px;
-        font-size: 28px;
-        width: 33px;
-        text-align: center;
-        text-decoration: none;
-        margin: 20px 2px;
-        border-radius: 50%;
-        border: 5px solid rgba(0, 0, 0, 0.81);
-        background:#fff;
-        color:rgba(0, 0, 0, 0.906);
-      }
-
-      #creaTe {
-        height:28px;  
-        width:60px;
-
-      } 
-    }
-    @media screen and (max-width: 1199px)and (min-width: 992px){
-        body {
-            justify-content: center;
-            width: 100%;
-            height:auto;
-        }
-
-        .container {
-            margin-left: 120px;
-            margin-right: 120px;
-        }
-        
-        .me {
-            font-size: 1.5em;
-            margin-top:0;
-            margin-bottom:10px;
-        }
-
-        .menu {
-            font-size: 1.4em;
-        }
-
-        .page-header {
-            padding: 1.5em;
-            margin-top: 2em;
-        }
-
-        .greetings {
-            font-size: 1.5em;
-        }
-
-        #self {
-            margin-top:80px;
-            height: 220px;
-            width: 170px;
-        }
-        .heroHeadline { 
-            align-items: ;
-            height: 550px;
-            margin-top: 30px;
-            padding:10px
-        }
-        .box {
-            padding: 0;
-        }
-
-        .ab {
-           height: auto;
-           width: 100%;
-           margin: auto;
-        }
-        
-        img {
-            height: auto;
-            width: 100%;
-        }
-
-        .box, .portBox {
-            height:auto;
-            width:100%;
-            margin-left: 0;
-            margin-right: 0;
-        }
-
-        h3 {
-            font-size: 1.4em;
-        }
-
-        p {
-         font-size: 1.3em;
-        }
-
-         .techicons {
-           justify-content: flex-start;
-         }
-
-        .demo1, .code1 {
-          font-size: 1.3em;
-       }
-
-        .connect {
-            display: flex;
-            justify-content: space-evenly;
-            height: 400px;
-      }
-
-    .fa {
-        padding: 10px;
-        font-size: 30px;
-        width: 35px;
-        text-align: center;
-        text-decoration: none;
-        margin: 20px 2px;
-        border-radius: 50%;
-        border: 5px solid rgba(0, 0, 0, 0.81);
-        background:#fff;
-        color:rgba(0, 0, 0, 0.906);
-      }
-
-      #creaTe {
-        height:30px;  
-        width:68px;
-
-      }
     }
