@@ -7,35 +7,35 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata|Josefin+Slab&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="index.old.css">
     <title>Anar Portfolio</title>
 </head>
 
 <body>
     <header class="page-header sticky">
-        <h2 class="text-center me">Anar Chalk</h2>
-        <span style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776;</span>
-        <nav class="text-center" id="navbar">
+        <h2 class="me">Anar Chalk</h2>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+        <div id="myNav" class="overlay">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <ul class="menu" id="overlay-content">
-                <li class="de" id="de1">Bio</li>
-                <li class="de" id="de2">Portfolio</li>
-                <li class="de" id="de3">Connect</li>
-            </ul>
-        </nav>
+            <div class="overlay-content">
+              <a href="#">Bio</a>
+              <a href="#">Portfolio</a>
+              <a href="#">connect</a>
+            </div>
+          </div>
     </header>
 
 
     <main role="main" class="container">
         <section role="content" class="cwrap">
-
             <section role="home" class="welcomeHero box">
                 <article class="heroHeadline">
                     <img src="img/portrait.jpeg" id="self" alt="girl in shades" height="320px" width="260px"><br>
-                    <h3 class="greetings">Greetings! <br>I am Anar a Web Developer with love for problem solving and
-                        innovation.</h3>
+                    <h2 class="greetings">Greetings! <br>I am Anar a Web Developer with love for problem solving and
+                        innovation.</h2>
                 </article>
             </section>
+
 
             <section role="first" class="bioBox box">
                 <article class="ab">
@@ -60,47 +60,48 @@
                 </article>
             </section>
 
-            <section role="second" class="portBox box">
+            <section role="second" class="portBox">
                 <article class="pro">
                     <header class="subh2">
                         <h2>Portfolio</h2>
                     </header>
-                    <img src="img/our-world-quiz.png" id="screenshot1" class="pictures" alt="a quiz screen">
+                    <img src="img/our-world-quiz.png" id="screenshot1" alt="a quiz screen" height="500px" width="900px">
                     <h3>Our World Quiz App</h3>
                     <p>The quiz app is fun and informative. It has 10 random questions about basic geography,
                         environment and, culture. Most of the users who tried the app hoped that there could be
                         periodically
                         updated questions.</p>
+
                     <ul class="techicons">
-                        <li><img src="img/html.png" class="tech" alt="html icon"></li>
-                        <li><img src="img/css.png" class="tech" alt="css icon"></li>
-                        <li><img src="img/js.png" class="tech" alt="javascript icon"></li>
-                        <li><img src="img/jQuery logo.png" class="tech" id="jqueryicon"alt="jquery logo"></li>
+                        <li><img src="img/HTML5_Logo_512.png" class="tech" alt="html logo" height="35px" width="35px">
+                        </li>
+                        <li><img src="img/CSS logo.png" class="tech" alt="css logo" height="38px" width="38px"></li>
+                        <li><img src="img/Javascripts logo.png" class="tech" alt="javascript logo" height="px"
+                                width="35px"></li>
+                        <li><img src="img/jQuery logo.png" class="tech" alt="jquery logo" height="35px" width="35px">
+                        </li>
                     </ul>
-                    <a class="demo" href="https://annachalk.github.io/Our-World-Quiz-App/">Demo</a>
-                    <a class="code" href="https://github.com/Annachalk/Our-World-Quiz-App" target="_blank">View
+                    <a class="demo1" href="https://annachalk.github.io/Our-World-Quiz-App/">Demo</a>
+                    <a class="code1" href="https://github.com/Annachalk/Our-World-Quiz-App" target="_blank">View
                         Code</a>
                 </article>
             </section>
 
             <section role="first" class="connect">
-                <article>
-                    <ul class="social">
-                        <li><a class="social-links" href="https://github.com/Annachalk" target="_blank"><i
-                                    class="fa fa-github fa-1.8x" aria-hidden="true"></i></a></li>
-                        <li><a class="social-links" href="https://linkedin.com/in/annachalk" target="_blank"><i
-                                    class="fa fa-linkedin fa-1.8x" aria-hidden="true"></i></a></li>
-                        <li><a class="social-links" href="mailto:annachak9@gmail.com" target="_blank"><i
-                                    class="fa fa-envelope fa-1.8x" aria-hidden="true"></i></a></li>
-                    </ul>
-                </article>
             </section>
-
         </section>
     </main>
 
-    <footer class="copyText">
+    <footer class="copyText" id="contactme">
         <article class="zurag" id="footerwrap">
+            <ul class="social">
+                <li><a class="social-links" href="https://github.com/Annachalk" target="_blank"><i
+                            class="fa fa-github fa-1.8x" aria-hidden="true"></i></a></li>
+                <li><a class="social-links" href="https://linkedin.com/in/annachalk" target="_blank"><i
+                            class="fa fa-linkedin fa-1.8x" aria-hidden="true"></i></a></li>
+                <li><a class="social-links" href="mailto:annachak9@gmail.com" target="_blank"><i
+                            class="fa fa-envelope fa-1.8x" aria-hidden="true"></i></a></li>
+            </ul>
             <div>
                 <img src="img/create footer.jpg" id="creaTe" alt="create" height="55px" width="130">
             </div>
