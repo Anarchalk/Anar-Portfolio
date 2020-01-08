@@ -42,8 +42,20 @@ li {
 }
 .me {
     margin-top:10px;
+    font-size: 1.6em;
 }
-
+.menu {
+    font-size: 1.1em;
+}
+h2 {
+    font-size: 1.3em;
+}
+h3 {
+    font-size: 1.2em;
+}
+p {
+    font-size: 1.1em;
+}
 .heroHeadline {
     display: flex;
     margin-top: 10px;
@@ -107,8 +119,8 @@ div, small {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.598);
-    background-color: rgba(0, 0, 0, 0.934);
+    background-color: rgba(58, 14, 25, 0.625);
+    background-color: rgba(53, 12, 23, 0.934);
     overflow-x: hidden;
     transition: 0.5s;
   }
@@ -154,8 +166,13 @@ ul.techicons {
       color:rgba(255, 255, 255, 0.788);
   }
   .demo, .code {
-      color:black;
-      text-decoration-color: rgb(39, 63, 63);
+      color:rgb(61, 52, 100);
+      font-size: 1.1em;
+      text-decoration: underline;
+  }
+
+  .demo {
+      margin-right:10px;
   }
 
   .social {
@@ -165,18 +182,7 @@ ul.techicons {
   
  @media only screen and (min-width: 414px) {
     /* bigger phones: */
-        .me {
-            font-size: 1.8em;
-        }
-        h2 {
-            font-size: 1.6em;
-        }
-        h3 {
-            font-size: 1.3em;
-        }
-        p {
-            font-size: 1.2em;
-        }
+        
         #self {
             height: 126px;
             width: 100px;
@@ -189,23 +195,35 @@ ul.techicons {
         }
         img#creaTe {
             height: 25px;
-            width: 65px;
-    } 
+            width: 65px;    
+    }   
+    
  }
 
     @media only screen and (min-width: 768px) {
     /* For tablet: */
+    html{
+        padding: 24px 38px;
+    }
+    body {
+        margin-left:100px;
+        margin-right:100px;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
     .me {
     margin-top:20px;
     }
-    ul#overlay-content {
-        display: flex;
+    .heroHeadline {
+        font-size: 1.2em;
     }
-    h3 {
-        font-size: 1.4em;
+   
+    span {
+        font-size: 50px;
     }
     p {
-        font-size: 1.3em;
+        font-size: 1.5rem;
     }
     #self {
         height: 210px;
@@ -225,70 +243,60 @@ ul.techicons {
         width: 89px;
     }
     ul.techicons {
-        width: 40%;
+        width: 50%;
     } 
+    small {
+        font-size:large;
+    }
+    
 }
  
 @media only screen and (min-width: 1024px) {
     /* For large tablets: */
+    html {
+        padding: 22px 38px;
+    }
+    .pictures {
+        height:450px;
+        width: 700px;
+    }
     .me {
         margin-top:40px;
-        font-size: 2.6em;
-        }
-h2 {
-    font-size: 1.8em;
-}
-        h3{
-            font-size: 1.8em;
-        }
-        p{
-            font-size: 1.4em;
+        font-size: 1.8em;
         }
         #self {
             height: 245px;
             width: 199px;
             margin-left: 51px;
         }
-        img#creaTe {
-            height: 36px;
-            width: 89px;
+        .heroHeadline {
+            font-size: 1.4em;
         }
         .demo, .code {
-            font-size:1.4em;
-        }
-        small {
-            font-size: x-large;
-        }
+            font-size: 1.2em;
     }
+    ul.techicons {
+        width: 40%;
+    } 
+}
 
     @media only screen and (min-width: 1200px) {
         /* For Desktop: */
         .me {
             margin-top:40px;
-            font-size: 4.6em;
-            }
-    h2 {
-        font-size: 3.6em;
-    }
-            h3{
-                font-size: 3.2em;
-            }
-            p{
-                font-size: 3.2em;
-            }
+        }
+        .pictures {
+            height:500px;
+            width: 750px;
+        }
             #self {
                 height: 320px;
                 width: 260px;
                 margin-left: 51px;
             }
             img#creaTe {
-                height: 60px;
-                width: 144px;
+                height: 40px;
+                width: 124px;
             }
-            small {
-                font-size: xx-large;
-            }
-            .demo, .code {
-                font-size: 2.8em;
-            }
+            
         }
