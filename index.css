@@ -18,6 +18,9 @@ html, body {
     margin-top: 10px;
   }
 
+  .zurag {
+      margin: auto;
+  }
   img {
       width:100%;
       height: auto;
@@ -61,7 +64,7 @@ p {
     margin-top: 10px;
     margin: 5px;
     padding: 10px;
-    font-size: 1em;
+    font-size: 0.8em;
 }
 
 .box {
@@ -77,6 +80,9 @@ p {
     border-radius: 50%;
     margin-top:40px;
     margin-right:10px;
+}
+.indent, .indent1 {
+    text-indent: 40px;
 }
 .fa {
     padding: 6px;
@@ -102,6 +108,10 @@ div, small {
     padding: 0;
     width: auto;
 }
+small {
+    font-weight: 700;
+    color: rgba(41, 40, 40, 0.925);
+}
 .buttons {
     font-size: 1.3em;
 }
@@ -119,8 +129,8 @@ div, small {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgba(58, 14, 25, 0.625);
-    background-color: rgba(53, 12, 23, 0.934);
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
     overflow-x: hidden;
     transition: 0.5s;
   }
@@ -142,10 +152,12 @@ div, small {
     transition: 0.3s;
   }
   
-  #navbar .de:hover, #navbar .de :focus {
+  
+  #navbar .de:hover, #navbar .de:focus {
     color: #f1f1f1;
   }
   
+
   #navbar .closebtn {
     position: absolute;
     top: 20px;
@@ -183,6 +195,9 @@ ul.techicons {
  @media only screen and (min-width: 414px) {
     /* bigger phones: */
         
+    .heroHeadline {
+        font-size: 1.2em;
+    }
         #self {
             height: 126px;
             width: 100px;
@@ -209,12 +224,51 @@ ul.techicons {
         margin-left:100px;
         margin-right:100px;
     }
+    .text-center {
+        text-align: start;
+    }
+    #navbar {
+        position: static;
+        height: auto;
+        width: auto;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #fff;
+        overflow: visible;
+    }
+    ul#overlay-content {
+        display: inline-flex;
+        position: static;
+        width: 100%;
+        margin-top:0;
+    }
+
+    #navbar .de {
+        padding:0;
+        font-size: 1.4em;
+        color: #020202;
+        display: block;
+        transition: 0.3s;
+    }
+    #navbar .de:hover, #navbar .de :focus {
+        color: #050505;
+      }
+
+    span {
+        display: none;
+    }
+    #navbar .closebtn {
+        display: none;
+    }
     h2 {
         font-size: 1.5em;
     }
+
     .me {
-    margin-top:20px;
+    margin-top:30px;
+    margin-bottom: 30px;
     }
+
     .heroHeadline {
         font-size: 1.2em;
     }
@@ -228,7 +282,7 @@ ul.techicons {
     #self {
         height: 210px;
         width: 170px;
-        margin-top: 0;
+        margin-top: 30px;
         margin-right: 25px;
         margin-left: 25px;
     }
@@ -238,6 +292,14 @@ ul.techicons {
         width: 40px;
         border: 5px solid;
     }
+    /* .pictures {
+        display: block;
+        position: absolute;
+        left: 50%;
+        width:700px;
+        transform: translate(-50%, -50%);
+      } */
+
     img#creaTe {
         height: 36px;
         width: 89px;
@@ -261,21 +323,23 @@ ul.techicons {
         width: 700px;
     }
     .me {
-        margin-top:40px;
         font-size: 1.8em;
         }
+
         #self {
             height: 245px;
             width: 199px;
             margin-left: 51px;
         }
+
         .heroHeadline {
             font-size: 1.4em;
         }
+        
         .demo, .code {
             font-size: 1.2em;
     }
-    ul.techicons {
+        ul.techicons {
         width: 40%;
     } 
 }
@@ -283,7 +347,7 @@ ul.techicons {
     @media only screen and (min-width: 1200px) {
         /* For Desktop: */
         .me {
-            margin-top:40px;
+            margin-top:20px;
         }
         .pictures {
             height:500px;
