@@ -2,6 +2,7 @@
 function showHomepage() {
     $('.container > .cwrap').children().hide();
     $(".welcomeHero").fadeIn();
+    $("#holbogd").children().show();
 }
 showHomepage();
 
@@ -18,6 +19,7 @@ function showAboutMe() {
         $('.container > .cwrap').children().hide();
         $(".bioBox").fadeIn();
         console.log("clicked");
+        $("#holbogd").children().show();
 
     });
 }
@@ -28,6 +30,7 @@ function showPortfolio() {
     $(document).on('click', '#de2', function () {
         $('.container > .cwrap').children().hide();
         $(".portBox").fadeIn();
+        $("#holbogd").children().show();
     });
 }
  showPortfolio();
@@ -47,6 +50,7 @@ function backToHome () {
     $(document).on('click', '.me', function () {
         $('.container > .cwrap').children().hide();
         $(".welcomeHero").fadeIn();
+        $("#holbogd").children().show();
     })
 }
 backToHome();
