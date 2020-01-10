@@ -46,6 +46,7 @@ li {
 .me {
     margin-top:10px;
     font-size: 1.6em;
+    cursor: pointer;
 }
 .menu {
     font-size: 1.1em;
