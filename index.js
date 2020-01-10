@@ -36,6 +36,7 @@ function showPortfolio() {
 function showContact() {
     $(document).on('click', '#de3', function () {
         $('.cwrap').children().fadeOut();
+        $("#holbogd").children().hide();
         $(".connect").fadeIn();
     });
 }
