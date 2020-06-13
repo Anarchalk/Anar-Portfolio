@@ -14,9 +14,16 @@ function openNav() {
    document.getElementById("navbar").style.width = "0%";
   }
 
+//   $(document).ready(function(){
+//     $(".de").on(function(){
+//       $("#navbar").toggle();
+//     });
+//   });
+
 function showAboutMe() {
     $(document).on('click', '#de1', function () {
         $('.container > .cwrap').children().hide();
+       
         $(".bioBox").fadeIn();
         console.log("clicked");
         $("#holbogd").children().show();
@@ -29,6 +36,7 @@ showAboutMe();
 function showPortfolio() {
     $(document).on('click', '#de2', function () {
         $('.container > .cwrap').children().hide();
+        // $('#navbar').hide();
         $(".portBox").fadeIn();
         $("#holbogd").children().show();
     });
@@ -39,6 +47,7 @@ function showPortfolio() {
 function showContact() {
     $(document).on('click', '#de3', function () {
         $('.cwrap').children().fadeOut();
+        // $('#navbar').hide();
         $("#holbogd").children().hide();
         $(".connect").fadeIn();
     });

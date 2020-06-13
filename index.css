@@ -21,7 +21,10 @@ html, body {
   .zurag {
       margin: auto;
   }
-
+.project-screenshots{
+    display: flex;
+    justify-content: center;
+}
   img {
       width:100%;
       height: auto;
@@ -115,7 +118,7 @@ img#creaTe {
     margin-bottom: 10px;
 }
 
-div, small {
+#bottom, small {
     display: flex;
     justify-content: center;
     padding: 0;
@@ -125,10 +128,11 @@ small {
     font-weight: 700;
     color: rgba(41, 40, 40, 0.925);
 }
+
 .buttons {
     font-size: 1.3em;
 }
-  .text-center{
+  .text-center, #clickme{
       text-align: center;
   }
   header.page-header.sticky {
@@ -211,6 +215,10 @@ ul.techicons {
     .heroHeadline {
         font-size: 1.2em;
     }
+    #clickme {
+        font-size: 1.3rem;
+        color:blue;
+    }
         #self {
             height: 126px;
             width: 100px;
@@ -225,7 +233,7 @@ ul.techicons {
             width: 30px;
             border: 4px solid;
         }
-        
+       
         img#creaTe {
             height: 25px;
             width: 65px;    
@@ -358,6 +366,11 @@ ul.techicons {
         ul.techicons {
         width: 90%;
     } 
+
+    #tolgoi {
+        display: flex;
+        justify-content: space-evenly;
+    }
 }
 
     @media only screen and (min-width: 1200px) {
