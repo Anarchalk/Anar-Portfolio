@@ -20,9 +20,9 @@ function showAboutMe() {
         $(".bioBox").fadeIn();
         console.log("clicked");
         $("#holbogd").children().show();
-        if($(document).width() <= 768) {
+        if($(document).width() <= 767) {
             closeNav()
-        }
+        };
     });
 }
 showAboutMe();
@@ -34,7 +34,7 @@ function showPortfolio() {
         $('.container > .cwrap').children().hide();
         $(".portBox").fadeIn();
         $("#holbogd").children().show();
-        if($(document).width() <= 768) {
+        if($(document).width() <= 767) {
             closeNav()
         }
     });
@@ -48,7 +48,7 @@ function showContact() {
         $('.cwrap').children().fadeOut();
         $("#holbogd").children().hide();
         $(".connect").fadeIn();
-        if($(document).width() <= 768) {
+        if($(document).width() <= 767) {
             closeNav()
         }
     });
@@ -64,7 +64,3 @@ function backToHome () {
     })
 }
 backToHome();
-
-
-
-
