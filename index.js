@@ -20,7 +20,7 @@ function showAboutMe() {
         $(".bioBox").fadeIn();
         console.log("clicked");
         $("#holbogd").children().show();
-        closeNav()
+        // closeNav()
     });
 }
 showAboutMe();
@@ -32,7 +32,7 @@ function showPortfolio() {
         $('.container > .cwrap').children().hide();
         $(".portBox").fadeIn();
         $("#holbogd").children().show();
-        closeNav();
+        // closeNav();
     });
     
 }
@@ -44,7 +44,7 @@ function showContact() {
         $('.cwrap').children().fadeOut();
         $("#holbogd").children().hide();
         $(".connect").fadeIn();
-        closeNav()
+        // closeNav()
     });
 }
 showContact();

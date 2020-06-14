@@ -334,6 +334,10 @@ ul.techicons {
     small {
         font-size:large;
     }
+    #tolgoi {
+        display: flex;
+        justify-content: space-evenly;
+    }
     
 }
  
@@ -391,5 +395,5 @@ ul.techicons {
                 height: 40px;
                 width: 124px;
             }
-            
+       
         }
