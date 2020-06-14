@@ -342,7 +342,6 @@ ul.techicons {
 }
  
 @media only screen and (min-width: 1024px) {
-    /* For large tablets: */
     html {
         padding: 22px 38px;
     }

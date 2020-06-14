@@ -20,7 +20,9 @@ function showAboutMe() {
         $(".bioBox").fadeIn();
         console.log("clicked");
         $("#holbogd").children().show();
-        // closeNav()
+        if($(document).width() <= 768) {
+            closeNav()
+        }
     });
 }
 showAboutMe();
@@ -32,7 +34,9 @@ function showPortfolio() {
         $('.container > .cwrap').children().hide();
         $(".portBox").fadeIn();
         $("#holbogd").children().show();
-        // closeNav();
+        if($(document).width() <= 768) {
+            closeNav()
+        }
     });
     
 }
@@ -44,7 +48,9 @@ function showContact() {
         $('.cwrap').children().fadeOut();
         $("#holbogd").children().hide();
         $(".connect").fadeIn();
-        // closeNav()
+        if($(document).width() <= 768) {
+            closeNav()
+        }
     });
 }
 showContact();
