@@ -243,12 +243,9 @@ ul.techicons {
 
     @media only screen and (min-width: 768px) {
     /* For tablet: */
-    html{
-        padding: 24px 38px;
-    }
+ 
     body {
-        margin-left:100px;
-        margin-right:100px;
+        margin: 0 100px;
     }
     .text-center {
         text-align: start;
@@ -342,9 +339,9 @@ ul.techicons {
 }
  
 @media only screen and (min-width: 1024px) {
-    html {
+    /* html {
         padding: 22px 38px;
-    }
+    } */
     .pictures {
         height:450px;
         width: 700px;
